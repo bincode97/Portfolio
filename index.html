@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+KR:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="./img/favicon-96x96.png" sizes="180x180" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/jquery.min.js"></script>
+  <script src="./js/common.js"></script>
+
+</head>
+
+<body>
+  <section class="nav-section ">
+    <h3 class="site-name">PORTFOLIO</h3>
+    <nav class="navigator">
+      <ul>
+        <li><a href="#home" class="nav-menu">HOME</a></li>
+        <li><a href="#about" class="nav-menu">ABOUT ME</a></li>
+        <li><a href="#work" class="nav-menu">WORK</a></li>
+        <li><a href="#footer" class="nav-menu">CONACT</a></li>
+      </ul>
+    </nav>
+  </section>
+  <div class="frame" id="home">
+    <div class="dashboard">
+      <h1 class="korean-comment">안녕하세요! 제 이름은 <a class="sample">권영빈</a>입니다.<br>
+        <a class="highlight">새로운 것에 도전하고 성장하는 </a> 웹퍼블리셔입니다.
+      </h1>
+      <p class="english-comment">Use what you've been through as fuel,believe
+        in
+        yourself and be unstoppable. <br>
+        Your hardest times often lead to the greatest monents of your life.
+        Keep going. Tough situations build strong people in the end.
+      </p>
+    </div>
+    <section id="about">
+      <h5 class="about-me">ABOUT ME</h5>
+      <div class="profile-section">
+        <img id="profile-picture" src="./img/man.png">
+        <div class="introduction">
+          <h2>Kwon Young Bin</h2>
+          <p>디자인, 개발 다 하는 인간 스타트업이 되도록 노력 중입니다.<br>
+            아직은 많이 부족하지만 겸손한 자세로 부족한 부분을 채우려고 노력하고 있습니다. <br>
+            책임감을 바탕으로 주어진 일을 끝까지 완수하는 성격인 ISTJ입니다. <br>
+          </p>
+          <h2>CAREER & EDUCATION</h2>
+          <p id="CAREER">
+            2015.03 ~ 2024.08 대진대학교 졸업 <br>
+            2024.10 ~ 2024.12 반응형웹디자인 & 웹퍼블리셔 수료 <br>
+            2024.02 ~ 2024.04 GTQ & 컴퓨터그래픽운용사 수료 <br>
+          </p>
+        </div>
+        <div class="Myskills-section">
+          <h5 class="Myskills">MY SKILLS</h5>
+          <img src="./img/skill_html.png">
+          <img src="./img/skill_css.png">
+          <img src="./img/skill_js.png">
+          <img src="./img/skill_jquery.png">
+          <img src="./img/skill_visual.png">
+          <img src="./img/skill_github.png">
+          <img src="./img/skill_ps.png">
+          <img src="./img/skill_ai.png">
+          <img src="./img/skill_figma.png">
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <h5 class="recent-menu">RECENT WORKS</h5>
+      <div class="recent-works">
+        <div class="article" id="arti1">
+          <img class="thumbnail" id="thumn1" src="./img/idi.png">
+          <div class="artice-info">
+            <h3 class="article-name">리뉴얼 : IDI KOREA </h3>
+            <p class="article-comment"> 노원SBS아카데미 학원에서 피그마를 이용한 와이어프레임,프로토타입 활용 화면을 설계하고 <br>
+              기존의 웹사이트의 로고를 리뉴얼했고 레이아웃과 색상 등등을 수정했다. <br>
+            </p>
+            <button class="more"><a href="./IDI-Korea/index.html" class="more-link">MORE > </a></button>
+          </div>
+        </div>
+        <div class="article" id="arti2">
+          <div class="artice-info">
+            <h3 class="article-name">클론 : SK TELECOM </h3>
+            <p class="article-comment">대표적인 기업소개 사이트들 중에 선벌하여 해당 사이트의 코드를 분석한 후에 클론작업을 진행했다.
+            </p>
+            <button class="more"><a href="./SK-Telecom/index.html" class="more-link">MORE > </a></button>
+          </div>
+          <img class="thumbnail" id="thumn2" src="./img/SK Telecom.png">
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <h3 class="contact">bin1018119@gmail.com</h3>
+      <div class="links">
+        <a class="github" href="https://github.com/binhub97" target="_blank">GITHUB</a>
+        <a class="notion" href="#" target="_blank">RESUME</a>
+      </div>
+      <p>저에게 궁금한 점이 있으시다면 연락해 주세요. </p>
+    </footer>
+  </div>
+</body>
+
+</html>
