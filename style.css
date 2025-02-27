@@ -255,13 +255,14 @@ li {
   background-color: transparent;
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
-  border: none;
+  border: 1px solid black;
   outline: none;
-  padding: 0;
+  padding: 10px 10px;
+  border-radius: 10px;
 }
 
 .themore {
-  padding-left: 10px;
+  padding: 6px 20px 10px 20px;
 }
 
 .more-link {
