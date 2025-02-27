@@ -260,6 +260,9 @@ li {
   padding: 0;
 }
 
+.themore {
+  padding-left: 10px;
+}
 
 .more-link {
   color: black;
