@@ -335,6 +335,8 @@ main #section-news-wrap .box-list .box-items .text p {
 }
 
 @media screen and (max-width : 1600px) {
+
+
   header .menu {
     right: 300px;
   }
