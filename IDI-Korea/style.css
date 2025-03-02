@@ -305,7 +305,7 @@ h4 {
   content: "";
   position: absolute;
   left: -80px;
-  background: url("../img/m_event.png") no-repeat;
+  background: url("./img/m_event.png") no-repeat;
   background-size: 50%;
   width: 122px;
   height: 64px;
